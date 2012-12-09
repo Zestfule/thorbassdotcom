@@ -22,10 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="138" selection-end="138" vertical-scroll-proportion="0.20491803">
+            <state line="10" column="2" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQL_Conf.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/MySQL/MySQL_Conf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.24590164">
               <folding />
             </state>
           </provider>
@@ -47,6 +56,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/config/MySQL/mysql.conf" />
+        <option value="$PROJECT_DIR$/config/MySQL/MySQL_Conf.php" />
       </list>
     </option>
   </component>
@@ -137,6 +148,10 @@
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MySQL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -166,6 +181,13 @@
       <method>
         <option name="PhingTarget" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
@@ -263,7 +285,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="138" selection-end="138" vertical-scroll-proportion="0.20491803">
+        <state line="10" column="2" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/MySQL/MySQL_Conf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.24590164">
           <folding />
         </state>
       </provider>
