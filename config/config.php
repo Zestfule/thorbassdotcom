@@ -4,9 +4,13 @@
 define('DEVELOPMENT_ENVIRONMENT', true);
 
 // MVC layout
-define('CONTROLLER_DIRECTORY', ROOT . DS . 'controllers');
-define('MODEL_DIRECTORY', ROOT . DS . 'models');
-define('VIEW_DIRECTORY', ROOT . DS . 'views');
+define('APP_DIRECTORY', PROJECT_ROOT . DIRECTORY_SEPARATOR . 'app');
+define('CONTROLLER_DIRECTORY', APP_DIRECTORY . DIRECTORY_SEPARATOR . 'controllers');
+define('MODEL_DIRECTORY', APP_DIRECTORY . DIRECTORY_SEPARATOR . 'models');
+define('VIEW_DIRECTORY', APP_DIRECTORY . DIRECTORY_SEPARATOR . 'views');
+
+// MVC Defaults
+define('DEFAULT_CONTROLLER', 'index');
 
 // Database
 define('DB_HOST', 'localhost');

@@ -1,7 +1,11 @@
 <?php
 
-define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', dirname(dirname(__FILE__)));
+define('PROJECT_ROOT', dirname(dirname(__FILE__)));
 
-require_once (ROOT . DS . 'config' . DS . 'config.php');
-require_once (ROOT . DS . 'app' . DS . 'shared.php');
+require_once ('..' . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'config.php');
+require_once (APP_DIRECTORY . DIRECTORY_SEPARATOR . 'SplClassLoader.php');
+
+$autoloader = new SplClassLoader('Zestify', '..' . DIRECTORY_SEPARATOR . 'lib');
+$autoloader->register();
+
+$app = new Zestify\Bootstrap();
