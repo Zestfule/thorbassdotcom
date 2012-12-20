@@ -5,12 +5,34 @@ namespace Zestify;
 class Bootstrap
 {
 
+    /**
+     * @var string The base url passed from mod_rewrite
+     */
     protected $_url;
+
+    /**
+     * @var array|null The initial broken up url by /
+     */
     protected $_urlArray;
+
+    /**
+     * @var string The controller from the url
+     */
     protected $_controller;
+
+    /**
+     * @var string The action from the url
+     */
     protected $_action;
+
+    /**
+     * @var array The arguments specified from the url
+     */
     protected $_args;
 
+    /**
+     *
+     */
     function __construct()
     {
 
@@ -34,6 +56,9 @@ class Bootstrap
 
     }
 
+    /*
+     *
+     */
     function getController()
     {
         //isset($this->_controller) ? return $this->_controller : return false;
@@ -43,6 +68,10 @@ class Bootstrap
             return false;
         }
     }
+
+    /*
+     *
+     */
     function setController($or = false)
     {
 
@@ -61,6 +90,9 @@ class Bootstrap
 
     }
 
+    /**
+     * @return bool
+     */
     function getAction()
     {
         if (isset($this->_action)) {
@@ -69,6 +101,12 @@ class Bootstrap
             return false;
         }
     }
+
+    /**
+     * @param bool $or
+     *
+     * @return bool
+     */
     function setAction($or = false)
     {
 
