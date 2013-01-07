@@ -1,6 +1,7 @@
 <?php
 
 namespace Zestify;
+use controllers;
 
 class Bootstrap
 {

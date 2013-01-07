@@ -17,61 +17,48 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="thorbassdotcom" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="19" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.6178195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="11" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/index/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="30" selection-start="3554" selection-end="3554" vertical-scroll-proportion="-27.73077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="178" selection-end="178" vertical-scroll-proportion="-4.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/index/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="6" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.51817113">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="417" selection-end="417" vertical-scroll-proportion="-7.1923075">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Zestify/View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="52" selection-start="350" selection-end="350" vertical-scroll-proportion="-15.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="20" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
+            <state line="33" column="9" selection-start="1182" selection-end="1182" vertical-scroll-proportion="-21.576923">
               <folding />
             </state>
           </provider>
@@ -87,21 +74,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/Zestify/Bootstrap/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/app/autoload.php" />
-        <option value="$PROJECT_DIR$/app/controllers/Index.php" />
-        <option value="$PROJECT_DIR$/app/shared.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/app/SplClassLoader.php" />
-        <option value="$PROJECT_DIR$/lib/Zestify/Bootstrap.php" />
         <option value="$PROJECT_DIR$/app/views/header.html" />
-        <option value="$PROJECT_DIR$/lib/Zestify/Controller.php" />
-        <option value="$PROJECT_DIR$/app/controllers/index.php" />
-        <option value="$PROJECT_DIR$/lib/Zestify/View.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/app/views/header.php" />
-        <option value="$PROJECT_DIR$/app/views/footer.php" />
+        <option value="$PROJECT_DIR$/app/controllers/index.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/lib/Zestify/Database.php" />
+        <option value="$PROJECT_DIR$/app/views/login/index.php" />
+        <option value="$PROJECT_DIR$/lib/Zestify/Bootstrap.php" />
+        <option value="$PROJECT_DIR$/lib/Zestify/View.php" />
+        <option value="$PROJECT_DIR$/lib/Zestify/Controller.php" />
+        <option value="$PROJECT_DIR$/lib/Zestify/Model.php" />
+        <option value="$PROJECT_DIR$/app/controllers/login.php" />
+        <option value="$PROJECT_DIR$/app/models/login.php" />
         <option value="$PROJECT_DIR$/public/css/index.css" />
+        <option value="$PROJECT_DIR$/app/views/footer.php" />
+        <option value="$PROJECT_DIR$/app/views/header.php" />
         <option value="$PROJECT_DIR$/app/views/index/index.php" />
       </list>
     </option>
@@ -155,7 +142,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,7 +196,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thorbassdotcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thorbassdotcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,50 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Zestify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thorbassdotcom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thorbassdotcom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zestify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SQLQuery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thorbassdotcom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thorbassdotcom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zestify" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,7 +322,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thorbassdotcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thorbassdotcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thorbassdotcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thorbassdotcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,15 +386,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.23325358" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="thorbass.com" serverId="c55c11ad-aa0d-4f31-9904-09ed7c2a9be0">
     <servers>
@@ -411,6 +416,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\thorbassdotcom\public\img" />
+      <recent name="D:\wamp\www\thorbassdotcom\public\img\carousel" />
       <recent name="D:\wamp\www\thorbassdotcom\lib\Zestify" />
     </key>
   </component>
@@ -487,19 +494,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15010683" sideWeight="0.9977925" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15170941" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -560,118 +567,96 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1355766496942" expanded="true" signature="0:188" placeholder="&lt;IfModule mod_reqrite.c&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Zestify/SQLQuery/SQLQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="-30.73077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Zestify/Model/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.31738624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/logs/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/shared.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.03967328">
-          <folding>
-            <element signature="e#9#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="916" selection-end="916" vertical-scroll-proportion="-18.307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/SplClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="882" selection-end="882" vertical-scroll-proportion="-1.3153576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Zestify/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="54" selection-start="475" selection-end="475" vertical-scroll-proportion="-9.714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Zestify/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17936695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="0.4384525">
+        <state line="55" column="39" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.01992966">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Zestify/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="52" selection-start="350" selection-end="350" vertical-scroll-proportion="-15.038462">
+        <state line="15" column="26" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27315357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Zestify/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="187" selection-end="187" vertical-scroll-proportion="0.23915592">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/header.php">
+    <entry file="file://$PROJECT_DIR$/lib/Zestify/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="417" selection-end="417" vertical-scroll-proportion="-7.1923075">
+        <state line="9" column="33" selection-start="93" selection-end="93" vertical-scroll-proportion="0.17936695">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.php">
+    <entry file="file://$PROJECT_DIR$/lib/Zestify/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="-13.730769">
+        <state line="21" column="49" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="62" selection-start="526" selection-end="526" vertical-scroll-proportion="0.4982415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="510" selection-end="510" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/carousel/steveDiGiorgio.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css.bkup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="335" selection-end="335" vertical-scroll-proportion="0.3926097">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="20" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
+        <state line="92" column="22" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.6188851">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="178" selection-end="178" vertical-scroll-proportion="-4.576923">
+        <state line="33" column="9" selection-start="1182" selection-end="1182" vertical-scroll-proportion="-21.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.51817113">
+        <state line="66" column="30" selection-start="3554" selection-end="3554" vertical-scroll-proportion="-27.73077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="19" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.6178195">
           <folding />
         </state>
       </provider>
