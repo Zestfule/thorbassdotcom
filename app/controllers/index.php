@@ -5,18 +5,18 @@ class Index extends Zestify\Controller
 
     function __construct($action)
     {
-        parent::__construct();
+        parent::__construct($action);
     }
 
     function index()
     {
-        $this->view->_display['pageTitle'] = ' - Index';
+        $this->_view->_display['pageTitle'] = ' - Index';
 
-        $this->view->addView('header.php');
-        $this->view->addView('index/index.php');
-        $this->view->addView('footer.php');
+        $this->_view->addView('header.php');
+        $this->_view->addView('index/index.php');
+        $this->_view->addView('footer.php');
 
-        $this->view->render();
+        $this->_view->render();
     }
 
 }

@@ -79,7 +79,7 @@ class Bootstrap
         if (!$or)
         {
             if (isset($this->_urlArray[0])) {
-                $this->_controller = $this->_urlArray[0];
+                $this->_controller = (string)$this->_urlArray[0];
                 return true;
             } else {
                 $this->_controller = DEFAULT_CONTROLLER;
@@ -96,11 +96,7 @@ class Bootstrap
      */
     function getAction()
     {
-        if (isset($this->_action)) {
-            return $this->_action;
-        } else {
-            return false;
-        }
+        return $this->_action;
     }
 
     /**
@@ -114,10 +110,9 @@ class Bootstrap
         if (!$or)
         {
             if (isset($this->_urlArray[1])) {
-                $this->_action = $this->_urlArray[1];
-                return true;
+                $this->_action = (string)$this->_urlArray[1];
             } else {
-                return false;
+                $this->_action = null;
             }
         } else {
             // TODO: Check if action is valid, force override.

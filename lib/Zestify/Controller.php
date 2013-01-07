@@ -7,10 +7,21 @@ class Controller
 
     public $_models = [];
 
-    function __construct($action = 'index')
+    public $_defaultAction = 'index';
+
+    public $_view;
+
+    function __construct($action)
     {
-        $this->view = new View();
-        $this->$action();
+        $this->_view = new View();
+        if (isset($action)) {
+            echo 'set';
+            $this->$action();
+        } else {
+            echo 'notset';
+            call_user_func($this->_defaultAction);
+            // $this->$action(); ?!?!?
+        }
     }
 
     public function loadModel($model)
@@ -23,6 +34,15 @@ class Controller
             return $this->_models[$model];
         } else {
         }
+    }
+
+    public function setDefaultAction($action)
+    {
+        $this->_defaultAction = (string)$action;
+    }
+
+    public function callAction($action)
+    {
     }
 
 }
