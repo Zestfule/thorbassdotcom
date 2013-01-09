@@ -5,7 +5,6 @@ class login extends Zestify\Controller
 
     function __construct($action)
     {
-        var_dump($action);
         parent::__construct($action);
         $this->loadModel('login');
     }

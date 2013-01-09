@@ -16,6 +16,11 @@ class View
     public $_display = [];
 
     /**
+     * @var string For the navigation menu to figure out where we are
+     */
+    public $_navigation;
+
+    /**
      *
      */
     function __construct()
@@ -42,6 +47,14 @@ class View
         {
             require VIEW_DIRECTORY . DIRECTORY_SEPARATOR . $view;
         }
+    }
+
+    /**
+     * @param string $where
+     */
+    public function setNavigation($where)
+    {
+        $this->_navigation = (string)$where;
     }
 
 }

@@ -1,15 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ThorBass &middot; Bootstrap</title>
+<title>Thor Instruments &middot; <?php echo $this->_display['pageTitle']; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 
 <!-- Le styles -->
-<link href="../css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
 <style>
 
     /* GLOBAL STYLES
@@ -289,26 +289,33 @@ body {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a class="brand" href="#">ThorBass</a>
+                <a class="brand" href="<?php echo $this->_display['websiteURL']; ?>">Thor Instruments</a>
                 <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <li<?php echo ($this->_navigation == 'Index' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/index"><i class="icon-home"></i> Home</a></li>
+                        <li class="dropdown <?php echo ($this->_navigation == 'About' ? ' active"' : ''); ?>">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="nav-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about">Mission Statement</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/design">Design</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/materials">Materials</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/electronics">Electronics</a></li>
                             </ul>
                         </li>
+                        <li<?php echo ($this->_navigation == 'Contact' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/contact">Contact</a></li>
+                        <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Purchasing <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/available">View Available</a></li>
+                                <li class="divider"></li>
+                                <li class="nav-header">Custom Built</li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/quote">Request Quote</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/portfolio">View Sold</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="<?php echo $this->_display['websiteURL']; ?>/blog">Blog</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!-- /.navbar-inner -->
@@ -316,7 +323,3 @@ body {
 
     </div> <!-- /.container -->
 </div><!-- /.navbar-wrapper -->
-
-
-
-

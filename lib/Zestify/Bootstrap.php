@@ -70,8 +70,10 @@ class Bootstrap
         }
     }
 
-    /*
+    /**
+     * @param bool $or
      *
+     * @return bool
      */
     function setController($or = false)
     {

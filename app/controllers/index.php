@@ -10,7 +10,7 @@ class Index extends Zestify\Controller
 
     function index()
     {
-        $this->_view->_display['pageTitle'] = ' - Index';
+        $this->_view->_display['pageTitle'] = 'Index';
 
         $this->_view->addView('header.php');
         $this->_view->addView('index/index.php');

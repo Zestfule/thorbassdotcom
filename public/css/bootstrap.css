@@ -210,6 +210,7 @@ body {
   line-height: 21px;
   color: #c8c8c8;
   background-color: #272b30;
+  padding-top: 120px;
 }
 a {
   color: #ffffff;
@@ -546,6 +547,7 @@ a:hover {
 }
 p {
   margin: 0 0 10.5px;
+    text-align: justify;
 }
 .lead {
   margin-bottom: 21px;
@@ -605,7 +607,7 @@ h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 21px;
-  color: inherit;
+  color: #0969A2;
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -728,8 +730,8 @@ dd {
 hr {
   margin: 21px 0;
   border: 0;
-  border-top: 1px solid #bbbfc2;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #444;
 }
 abbr[title],
 abbr[data-original-title] {
@@ -4616,12 +4618,12 @@ input[type="submit"].btn.btn-mini {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 5px;
   line-height: 21px;
   border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
@@ -4629,6 +4631,7 @@ input[type="submit"].btn.btn-mini {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  background-color: #253644;
 }
 a.thumbnail:hover {
   border-color: #ffffff;
@@ -5215,10 +5218,10 @@ legend,
 .navbar-inverse .nav li.active > a:hover {
   background-color: #272b30;
   background-repeat: repeat-x;
-  background-image: -moz-linear-gradient(280deg, #202328, #272b30);
-  background-image: -webkit-linear-gradient(280deg, #202328, #272b30);
-  background-image: -o-linear-gradient(280deg, #202328, #272b30);
-  background-image: linear-gradient(280deg, #202328, #272b30);
+  background-image: -moz-linear-gradient(280deg, #202328, #245A7A);
+  background-image: -webkit-linear-gradient(280deg, #202328, #245A7A);
+  background-image: -o-linear-gradient(280deg, #202328, #245A7A);
+  background-image: linear-gradient(280deg, #202328, #245A7A);
 }
 @media (max-width: 979px) {
   .navbar .nav-collapse .nav li > a,
@@ -5835,7 +5838,7 @@ textarea[readonly] {
 }
 .thumbnail,
 a.thumbnail:hover {
-  border: 1px solid #1c1e22;
+  border: 1px solid #003b60;
 }
 .progress {
   background-color: #202328;
@@ -5900,4 +5903,13 @@ a.thumbnail:hover {
 }
 .affix {
   position: fixed;
+}
+
+
+/* OKAY MY SHIT */
+
+.thumbnailCaption {
+    margin-left: 275px;
+    padding-left: 20px;
+    border-left: 1px #444 solid;
 }

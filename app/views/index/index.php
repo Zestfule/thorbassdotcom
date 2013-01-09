@@ -8,7 +8,7 @@
                 <div class="carousel-caption">
                     <h1>ThorBass</h1>
                     <p class="lead">Fine handcrafted instruments from New Hampshire. Every Thor bass and guitar is hand made in this one-man shop. </p>
-                    <a class="btn btn-large btn-primary" href="#">About ThorBass</a>
+                    <a class="btn btn-large btn-primary" href="<?php echo $this->_display['websiteURL']; ?>/about">About ThorBass</a>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                 <div class="carousel-caption">
                     <h1>Steve DiGiorgio</h1>
                     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <a class="btn btn-large btn-primary" href="#">Learn more</a>
+                    <a class="btn btn-large btn-primary" href="<?php echo $this->_display['websiteURL']; ?>/feature/Steve-DiGiorgio">Learn more</a>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
                 <div class="carousel-caption">
                     <h1>Available Basses</h1>
                     <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+                    <a class="btn btn-large btn-primary" href="<?php echo $this->_display['websiteURL']; ?>/available">Browse gallery</a>
                 </div>
             </div>
         </div>
@@ -49,21 +49,21 @@
     <div class="row">
         <div class="span4">
             <img class="img-circle" data-src="holder.js/140x140">
-            <h2>Dream</h2>
+            <h2>Design</h2>
             <p>Fine handcrafted instruments from New Hampshire. Every Thor bass and guitar is hand made in this one-man shop. Every instrument is custom made. Let's talk about your dream bass.</p>
-            <p><a class="btn" href="#">View details &raquo;</a></p>
+            <p><a class="btn" href="<?php echo $this->_display['websiteURL']; ?>/about/design">View details &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
             <img class="img-circle" data-src="holder.js/140x140">
             <h2>Materials</h2>
             <p>I use many kinds of wood in my instruments. This is an attempt to present the appearance, attributes, and uses of some of the woods available.</p>
-            <p><a class="btn" href="#">View details &raquo;</a></p>
+            <p><a class="btn" href="<?php echo $this->_display['websiteURL']; ?>/about/materials">View details &raquo;</a></p>
         </div><!-- /.span4 -->
         <div class="span4">
             <img class="img-circle" data-src="holder.js/140x140">
             <h2>Electronics</h2>
             <p>Remember the venerable Strat? Considering what little artistry went into that guitar it sure had a sound that you could take to work, and it still does. So, when it comes to choosing a bass setup, why re-invent the wheel?</p>
-            <p><a class="btn" href="#">View details &raquo;</a></p>
+            <p><a class="btn" href="<?php echo $this->_display['websiteURL']; ?>/about/electronics">View details &raquo;</a></p>
         </div><!-- /.span4 -->
     </div><!-- /.row -->
 
@@ -98,4 +98,4 @@
 
      /END THE FEATURETTES -->
 
-    <hr class="featurette-divider">
+</div>
