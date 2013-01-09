@@ -295,27 +295,25 @@ body {
                     <ul class="nav">
                         <li<?php echo ($this->_navigation == 'Index' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/index"><i class="icon-home"></i> Home</a></li>
                         <li class="dropdown <?php echo ($this->_navigation == 'About' ? ' active"' : ''); ?>">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-question-sign"></i> About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about">Mission Statement</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/design">Design</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/materials">Materials</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/electronics">Electronics</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about"><i class="icon-quote-left"></i> Mission Statement</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/design"><i class="icon-book"></i> Design</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/materials"><i class="icon-leaf"></i> Materials</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/electronics"><i class="icon-hdd"></i> Electronics</a></li>
                             </ul>
                         </li>
-                        <li<?php echo ($this->_navigation == 'Contact' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/contact">Contact</a></li>
-                        <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                        <li<?php echo ($this->_navigation == 'Contact' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/contact"><i class="icon-envelope"></i> Contact</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Purchasing <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-money"></i> Purchasing <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/available">View Available</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/available"><i class="icon-folder-open-alt"></i> View Available</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/portfolio"><i class="icon-folder-close-alt"></i> View Sold</a></li>
                                 <li class="divider"></li>
-                                <li class="nav-header">Custom Built</li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/quote">Request Quote</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/portfolio">View Sold</a></li>
+                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/quote"><i class="icon-credit-card"></i> Request Quote</a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo $this->_display['websiteURL']; ?>/blog">Blog</a></li>
+                        <li><a href="<?php echo $this->_display['websiteURL']; ?>/blog"><i class="icon-calendar"></i> Blog</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div><!-- /.navbar-inner -->
