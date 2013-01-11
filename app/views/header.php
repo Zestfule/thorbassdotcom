@@ -104,7 +104,7 @@ body {
 }
 
 .carousel-caption {
-    background-image: url("../img/tans.png");
+    background-image: url("../img/trans.png");
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -294,25 +294,9 @@ body {
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li<?php echo ($this->_navigation == 'Index' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/index"><i class="icon-home"></i> Home</a></li>
-                        <li class="dropdown <?php echo ($this->_navigation == 'About' ? ' active"' : ''); ?>">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-question-sign"></i> About <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about"><i class="icon-quote-left"></i> Mission Statement</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/design"><i class="icon-book"></i> Design</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/materials"><i class="icon-leaf"></i> Materials</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/about/electronics"><i class="icon-hdd"></i> Electronics</a></li>
-                            </ul>
-                        </li>
+                        <li<?php echo ($this->_navigation == 'About' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/about"><i class="icon-quote-left"></i> About</a></li>
                         <li<?php echo ($this->_navigation == 'Contact' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/contact"><i class="icon-envelope"></i> Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-money"></i> Purchasing <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/available"><i class="icon-folder-open-alt"></i> View Available</a></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/portfolio"><i class="icon-folder-close-alt"></i> View Sold</a></li>
-                                <li class="divider"></li>
-                                <li><a href="<?php echo $this->_display['websiteURL']; ?>/quote"><i class="icon-credit-card"></i> Request Quote</a></li>
-                            </ul>
-                        </li>
+                        <li<?php echo ($this->_navigation == 'Instruments' ? ' class="active"' : ''); ?>><a href="<?php echo $this->_display['websiteURL']; ?>/instruments"><i class="icon-shopping-cart"></i> Instruments</a></li>
                         <li><a href="<?php echo $this->_display['websiteURL']; ?>/blog"><i class="icon-calendar"></i> Blog</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
@@ -321,3 +305,10 @@ body {
 
     </div> <!-- /.container -->
 </div><!-- /.navbar-wrapper -->
+
+<div class="container well well-small" style="padding: 30px;">
+    <i class="icon-shopping-cart pull-left" style="margin: 0px; margin-right: 30px; font-size: 136px;"></i>
+    <h4 style="margin-top: 0px;">Request a Quote <small>Get your very own Thor Instrument!</small></h4>
+    Interested in purchasing your personal Thor Instrument?  Get started by filling out our form with as many details as you want and can think of so we can get back to you as soon as possible with pricing and a time-line for when your instrument can be available!<br/>
+    <a href="<?php echo $this->_display['websiteURL']; ?>/quote" class="btn" style="margin-top: 10px;">Get a Quote Now</a>
+</div>

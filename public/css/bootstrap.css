@@ -210,7 +210,7 @@ body {
   line-height: 21px;
   color: #c8c8c8;
   background-color: #272b30;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 a {
   color: #ffffff;
@@ -5912,4 +5912,15 @@ a.thumbnail:hover {
     margin-left: 275px;
     padding-left: 20px;
     border-left: 1px #444 solid;
+}
+.fixed {
+    position:fixed;
+}
+.featurette-image {
+    width: 30%;
+    /*border: 2px #003b60 solid;*/
+}
+.date {
+    letter-spacing: 3px;
+    color: #7a8288;
 }

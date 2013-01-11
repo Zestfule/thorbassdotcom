@@ -1,5 +1,6 @@
 <!-- Carousel
 ================================================== -->
+<!--
 <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
         <div class="item active">
@@ -35,7 +36,8 @@
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div><!-- /.carousel -->
+</div>
+-->
 
 
 
@@ -45,57 +47,71 @@
 
 <div class="container marketing">
 
+    <div class="featurette" style="padding-top: 10px;">
+        <img src="img/featurettes/steve-digiorgio.jpg" class="pull-right" style="margin-left: 30px;" alt="">
+        <h2 class="featurette-heading">Steve. <span class="muted">DiGiorgio.</span></h2>
+        <p class="lead"><i class="icon-quote-left icon-4x pull-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, magna et fermentum convallis, ipsum justo scelerisque velit, vel lobortis quam risus eu est. Etiam sed enim vel lorem sodales placerat. Fusce tincidunt leo sit amet elit lacinia blandit.</p>
+        <a href="#"><i class="icon-share-alt" style="color: #0480be;"></i> Check out Steve's instruments made by Thor!</a>
+    </div>
+
+    <hr class="divider">
+
     <!-- Three columns of text below the carousel -->
     <div class="row">
-        <div class="span4">
-            <img class="img-circle" data-src="holder.js/140x140">
-            <h2>Design</h2>
+        <div class="span6">
+            <h1>Latest News</h1>
+            <h4>Thor Instruments Partners With Pixie Dust</h4>
+            <small class="date">Wednesday, January 4th, 2013</small>
             <p>Fine handcrafted instruments from New Hampshire. Every Thor bass and guitar is hand made in this one-man shop. Every instrument is custom made. Let's talk about your dream bass.</p>
-            <p><a class="btn" href="<?php echo $this->_display['websiteURL']; ?>/about/design">View details &raquo;</a></p>
+            <a href=""><i class="icon-share-alt" style="color: #0480be;"></i> Read More</a> &middot; <a href=""><i class="icon-comments" style="color: #0480be;"></i> Comments (12)</a>
         </div><!-- /.span4 -->
-        <div class="span4">
-            <img class="img-circle" data-src="holder.js/140x140">
-            <h2>Materials</h2>
+        <div class="span6">
+            <h1>Latest Build Diary</h1>
+            <h4>Week 5 on Valhalla Mk.III</h4>
+            <small class="date">Wednesday, January 4th, 2013</small>
             <p>I use many kinds of wood in my instruments. This is an attempt to present the appearance, attributes, and uses of some of the woods available.</p>
-            <p><a class="btn" href="<?php echo $this->_display['websiteURL']; ?>/about/materials">View details &raquo;</a></p>
+            <a href=""><i class="icon-share-alt" style="color: #0480be;"></i> Read More</a> &middot; <a href=""><i class="icon-comments" style="color: #0480be;"></i> Comments (12)</a>
         </div><!-- /.span4 -->
-        <div class="span4">
-            <img class="img-circle" data-src="holder.js/140x140">
-            <h2>Electronics</h2>
-            <p>Remember the venerable Strat? Considering what little artistry went into that guitar it sure had a sound that you could take to work, and it still does. So, when it comes to choosing a bass setup, why re-invent the wheel?</p>
-            <p><a class="btn" href="<?php echo $this->_display['websiteURL']; ?>/about/electronics">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-    </div><!-- /.row -->
+    </div>
 
-
-    <!-- START THE FEATURETTES
-
-    <hr class="featurette-divider">
+    <hr class="divider">
 
     <div class="featurette">
-        <img class="featurette-image pull-right" src="../img/browser-icon-chrome.png">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+        <ul class="thumbnails" style="margin: auto;">
+            <li class="featurette-image"><img src="img/featurettes/0006.jpg" alt=""></li>
+            <li class="featurette-image"><img src="img/featurettes/0021.jpg" alt=""></li>
+            <li class="featurette-image"><img src="img/featurettes/0028.jpg" alt=""></li>
+        </ul>
+        <h2 class="featurette-heading">One of a kind. <span class="muted">Built to order.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, magna et fermentum convallis, ipsum justo scelerisque velit, vel lobortis quam risus eu est. Etiam sed enim vel lorem sodales placerat. Fusce tincidunt leo sit amet elit lacinia blandit. Sed ornare nunc vitae leo pellentesque eu interdum est aliquet.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="featurette">
+        <ul class="thumbnails" style="margin: auto;">
+            <li class="featurette-image"><img src="img/featurettes/0017.jpg" alt=""></li>
+            <li class="featurette-image"><img src="img/featurettes/0016.jpg" alt=""></li>
+            <li class="featurette-image"><img src="img/featurettes/0023.jpg" alt=""></li>
+        </ul>
+        <h2 class="featurette-heading">Beautiful. <span class="muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="featurette">
+        <ul class="thumbnails" style="margin: auto;">
+            <li class="featurette-image"><img src="img/featurettes/0033.jpg" alt=""></li>
+            <li class="featurette-image"><img src="img/featurettes/0007.jpg" alt=""></li>
+            <li class="featurette-image"><img src="img/featurettes/0019.jpg" alt=""></li>
+        </ul>
+        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Ka-boom.</span></h2>
         <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     </div>
 
-    <hr class="featurette-divider">
-
-    <div class="featurette">
-        <img class="featurette-image pull-left" src="../img/browser-icon-firefox.png">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="featurette">
-        <img class="featurette-image pull-right" src="../img/browser-icon-safari.png">
-        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-    </div>
 
 
-
-     /END THE FEATURETTES -->
+     <!-- /END THE FEATURETTES -->
 
 </div>

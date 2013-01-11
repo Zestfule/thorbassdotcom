@@ -31,5 +31,16 @@
         })
     }(window.jQuery)
 </script>
+<script type="text/javascript">
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 320){
+            $('#aboutNav').addClass('fixed').css('top','0').next().css('padding-top','60px');
+            $('#toTop').css('visibility', 'visible');
+        } else {
+            $('#aboutNav').removeClass('fixed').next().css('padding-top','0');
+            $('#toTop').css('visibility', 'hidden');
+        }
+    });
+</script>
 </body>
 </html>
